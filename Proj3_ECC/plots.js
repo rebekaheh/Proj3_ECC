@@ -103,6 +103,7 @@ var layout3 = {
     font: {
       family: "'Lora', sans-serif",
       color: 'black',
+      
     },
     xaxis: {
       showticklabels: true,
@@ -110,14 +111,16 @@ var layout3 = {
       tickfont: {
         size: 12,
         color: 'black'
+        
       },
     },
   yaxis: {
     title: '% Occurance Within Recipes',
-    range: [0, 90],
+    range: [0, 100],
     titlefont: {
       size: 16,
       color: 'black'
+     
      },
     }, 
   };
@@ -157,7 +160,7 @@ var layout4 = {
     },
   yaxis: {
     title: '% Occurance Within Recipes',
-    range: [0, 80],
+    range: [0, 100],
     titlefont: {
       size: 16,
       color: 'black'
